@@ -1,0 +1,111 @@
+.main-page {
+    padding: 30px 80px 30px 80px;
+}
+
+.page-container{
+    display: flex;
+}
+
+.page-buttons-container {
+    max-height: 80vh;
+    overflow-y: scroll;
+    width: 30%;
+}
+
+.page-graph-container {
+    border: 1px solid lightgrey;
+    margin-top: 6px;
+    width: 70%;
+    overflow: hidden;
+    background-color: white;
+    max-height: 80vh;
+    position: relative;
+
+}   
+
+.canva-container {
+    display: flex;
+    justify-content: center;
+}
+    /* .page-graph-container *{
+        transition: none;
+    }
+    .page-graph-container > div{
+        height: 80% !important;
+    }
+    .page-graph-container  svg{
+        height: 100% !important;
+    } */
+
+.loader-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #d9dedb;
+    position: absolute;
+    z-index: 2;
+}
+
+.page-graph-id-label {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    min-width: 4rem;
+    height: 3rem;
+    z-index: 2;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-graph-id-label-text{
+    color: white;
+    font-size: 2rem;
+}
+
+.page-filter {
+    padding: 5px;
+    width: 29%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--primary-color-light);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* overriting the component CSS */
+.force-graph-container{
+    /* transform: translateX(-15rem); */
+    /* display: flex;
+    justify-content: center; */
+    overflow: hidden;
+}
+
+.page-graph-download-network-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    position: absolute;
+    top: 2px;
+    z-index: 2;
+    top: 85%;
+    right: 5%;
+
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.6rem;
+    padding: 10px 12px;
+
+    transition: all .1s ease-in-out;
+}
+.page-graph-download-network-button:hover{
+    background-color: var(--primary-color-dark);
+    transform: scale(1.1);
+}
