@@ -1,1 +1,1 @@
-# DNMV---Dynamic-Networks-Modeling-and-Visualization
+# DNMV-Dynamic-Networks-Modeling-and-Visualization
